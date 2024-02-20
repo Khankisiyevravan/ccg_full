@@ -1,0 +1,57 @@
+header {
+  height: 90px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  transition: 0.4s;
+}
+header .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  height: 100%;
+}
+.logo img {
+  height: 100%;
+  object-fit: contain;
+}
+header .container > ul {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+header .container > ul li a {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: white;
+}
+header.scroll {
+  transition: 0.4s;
+  background-color: rgba(255, 255, 255, 0.933);
+}
+header.scroll .container > ul li a {
+  color: black;
+}
+#bar_menu {
+  display: none;
+  font-size: 24px;
+  color: white;
+}
+@media (max-width: 1000px) {
+  header .container {
+    position: relative;
+    align-items: center;
+  }
+  header .container ul {
+    position: absolute;
+    display: none;
+  }
+  #bar_menu {
+    display: block;
+  }
+}
