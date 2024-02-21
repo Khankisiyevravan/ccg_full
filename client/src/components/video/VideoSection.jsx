@@ -37,9 +37,9 @@ const VideoSection = () => {
             sektorda xidmət verən bir şirkətlər qrubudur .
           </p>
           <div>
-            <button>
+            {/* <button>
               <Link to="/services">Xidmətlər</Link>
-            </button>
+            </button> */}
             <button>
               <Link to="/companies">Şirkətlər</Link>
             </button>
