@@ -8,17 +8,18 @@ const Contact = () => {
     title: "",
     content: "",
   });
-  const axiosInstance = axios.create({
-    baseURL: process.env.REACT_APP_API_URL,
-  });
+  console.log(process.env.REACT_APP_API_URL);
+  // const axiosInstance = axios.create({
+  //   baseURL: process.env.REACT_APP_API_URL,
+  // });
   const handleChange = (e) => {
     setContactData({ ...contactData, [e.target.name]: e.target.value });
   };
   const sendData = (e) => {
     e.preventDefault();
     console.log(contactData);
-    axiosInstance
-      .post("/api/contacts", {
+    axios
+      .post("/contacts", {
         data: contactData,
       })
       .then((response) => {

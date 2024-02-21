@@ -10,11 +10,11 @@ const Homepage = () => {
       <VideoSection />
       <section id="about_sec">
         <div className="container">
-          <h3>
-            <strong>Qrup</strong> Haqqında
-          </h3>
           <div id="about_main">
             <div id="about_text">
+              <h3>
+                <strong>Qrup</strong> Haqqında
+              </h3>
               <p>
                 Şirkətimiz inşaat və layihələndirmə, mühəndislik və sənaye
                 xidmətləri, təchizat , treydinq, kənd təsərrüfatı sahələrində
@@ -49,10 +49,10 @@ const Homepage = () => {
               </div>
               <div className="text">
                 <h5>CASPIAN ENERGY CO</h5>
-                <p>
+                {/* <p>
                   Keep away from people who try to belittle your ambitions.
                   Small people always do that but the really great.
-                </p>
+                </p> */}
               </div>
             </Link>
             <div className="service">
@@ -61,10 +61,10 @@ const Homepage = () => {
               </div>
               <div className="text">
                 <h5>GOLD CONSTRUCTION 2020</h5>
-                <p>
+                {/* <p>
                   Keep away from people who try to belittle your ambitions.
                   Small people always do that but the really great.
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="service">
@@ -73,10 +73,10 @@ const Homepage = () => {
               </div>
               <div className="text">
                 <h5>ND COMPANY</h5>
-                <p>
+                {/* <p>
                   Keep away from people who try to belittle your ambitions.
                   Small people always do that but the really great.
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="service">
@@ -85,10 +85,10 @@ const Homepage = () => {
               </div>
               <div className="text">
                 <h5>ELTA GLOBAL</h5>
-                <p>
+                {/* <p>
                   Keep away from people who try to belittle your ambitions.
                   Small people always do that but the really great.
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="service">
@@ -97,10 +97,10 @@ const Homepage = () => {
               </div>
               <div className="text">
                 <h5>ETA OIL</h5>
-                <p>
+                {/* <p>
                   Keep away from people who try to belittle your ambitions.
                   Small people always do that but the really great.
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="service">
@@ -109,10 +109,10 @@ const Homepage = () => {
               </div>
               <div className="text">
                 <h5>EKOFARM</h5>
-                <p>
+                {/* <p>
                   Keep away from people who try to belittle your ambitions.
                   Small people always do that but the really great.
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="service">
@@ -121,10 +121,10 @@ const Homepage = () => {
               </div>
               <div className="text">
                 <h5>AZSAFE CITY</h5>
-                <p>
+                {/* <p>
                   Keep away from people who try to belittle your ambitions.
                   Small people always do that but the really great.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
