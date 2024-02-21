@@ -38,7 +38,7 @@ header.scroll {
   transition: 0.4s;
   background-color: rgba(255, 255, 255, 0.933);
 }
-header.scroll .container > ul li a {
+header.scroll .container div > ul li a {
   color: black;
 }
 #bar_menu {
@@ -64,7 +64,7 @@ header.scroll .container > ul li a {
     transform: translateX(100%);
     transition: 0.4s;
   }
-  header .container div#ul.show{
+  header .container div#ul.show {
     transform: translateX(0);
   }
   header .container div#ul ul {
