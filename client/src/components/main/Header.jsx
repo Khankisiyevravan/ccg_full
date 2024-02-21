@@ -55,6 +55,9 @@ const Header = () => {
               <Link to="/blog">Xəbərlər </Link>
             </li>
             <li>
+              <Link to="/certificates"> Sertifikatlar </Link>
+            </li>
+            <li>
               <Link to="/contact_us"> Bizimlə Əlaqə</Link>
             </li>
           </ul>
