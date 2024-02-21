@@ -314,72 +314,7 @@ const Services = () => {
                 </div>
               </div>
             ))}
-            {/* <div class="column_div_first">
-              <div class="img_in_column_div">
-                <img
-                  src="https://www.themesindustry.com/html/xwin/images/blog1.jpg"
-                  alt=""
-                  class="img_own"
-                />
-              </div>
-              <div class="text_in_column_div">
-                <h3>Before Making your Dream Living Room Make 3D Room Model</h3>
-                <ul>
-                  <li>
-                    <a href="#">May 10, 2017</a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa-regular fa-message-lines"></i> 5
-                    </a>
-                  </li>
-                </ul>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
-                  debitis ea est illum ipsa itaque libero optio quasi voluptas!
-                  Consequuntur deserunt expedita.
-                </p>
-                <p>
-                  fugiat hic illum porro quidem quis recusandae vero? Aliquid
-                  assumenda cum delectus eaque eligendi, enim eum excepturi
-                  fugit illum impedit in iste laudantium modi natus […]
-                </p>
-                <button class="read_more_btn">READ MORE</button>
-              </div>
-            </div>
-            <div class="column_div_first">
-              <div class="img_in_column_div">
-                <img
-                  src="https://www.themesindustry.com/html/xwin/images/blog1.jpg"
-                  alt=""
-                  class="img_own"
-                />
-              </div>
-              <div class="text_in_column_div">
-                <h3>Before Making your Dream Living Room Make 3D Room Model</h3>
-                <ul>
-                  <li>
-                    <a href="#">May 10, 2017</a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa-regular fa-message-lines"></i> 5
-                    </a>
-                  </li>
-                </ul>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
-                  debitis ea est illum ipsa itaque libero optio quasi voluptas!
-                  Consequuntur deserunt expedita.
-                </p>
-                <p>
-                  fugiat hic illum porro quidem quis recusandae vero? Aliquid
-                  assumenda cum delectus eaque eligendi, enim eum excepturi
-                  fugit illum impedit in iste laudantium modi natus […]
-                </p>
-                <button class="read_more_btn">READ MORE</button>
-              </div>
-            </div> */}
+            
           </div>
         </div>
       </section>

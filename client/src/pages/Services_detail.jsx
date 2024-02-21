@@ -4,15 +4,10 @@ import Contact from "../components/form/ContactForm";
 const Services_detail = () => {
   return (
     <>
-      <section class="background_foto">
-        <div class="container">
-          <h1>Caspian Energy Construction</h1>
-          {/* <p>
-            We offer the most complete house renovating services in the country
-          </p> */}
+      {/* <section class="background_foto">
+      
           <div class="flex_end">
             <div class="page_nav">
-              {/* <span>You are here:</span> */}
               <a href="#">Ana səhifə</a>
               <span>
                 <i
@@ -38,33 +33,7 @@ const Services_detail = () => {
             >
               <img src="/assets/images/other/caspianenergyco.jpg" alt="" />
             </div>
-            {/* <div id="div_course">
-              <div id="name_of_teacher">
-                <div>
-                  <i class="fa-solid fa-users"></i>
-                </div>
-                <div>
-                  <p>Teacher</p>
-                  <h5>JOHN PARKER</h5>
-                </div>
-              </div>
-              <div id="name_of_teacher">
-                <div>
-                  <i class="fa-solid fa-users"></i>
-                </div>
-                <div>
-                  <p>Category</p>
-                  <h5>Software Training / Web Coures</h5>
-                </div>
-              </div>
-              <div class="icons_aside">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-            </div> */}
+      
             <div id="text_in_sdetail">
               <h3>Accounting Technologies</h3>
               <p>
@@ -134,7 +103,7 @@ const Services_detail = () => {
           </div>
         </div>
       </section>
-      <Contact />
+      <Contact /> */}
     </>
   );
 };

@@ -36,18 +36,7 @@ const Service = () => {
           </p>
           <p>Portfelə aşağıdakı şirkətlər daxildir :</p>
           <div id="companies_in_inshaat">
-            <div class="company">
-              <div class="img_construction">
-                <img
-                  src="/assets/images/other/caspianenergyco.jpg"
-                  alt=" "
-                  class="img_company"
-                />
-              </div>
-              <div class="text_in_inshaat">
-                <h4>Caspian Energy Construction QSC</h4>
-              </div>
-            </div>
+          
             <div class="company">
               <div class="img_gold">
                 <img
@@ -103,18 +92,7 @@ const Service = () => {
                 <h4>AzSafe City MMC</h4>
               </div>
             </div>
-            <div class="company">
-              <div class="img_construction">
-                <img
-                  src="/assets/images/other/caspianenergyco.jpg"
-                  alt=" "
-                  class="img_company"
-                />
-              </div>
-              <div class="text_in_inshaat">
-                <h4>Caspian Energy Construction QSC</h4>
-              </div>
-            </div>
+        
           </div>
         </div>
       </section>

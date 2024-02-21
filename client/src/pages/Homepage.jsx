@@ -43,18 +43,7 @@ const Homepage = () => {
             Bizim <strong>Şirkətlər</strong>
           </h3>
           <div id="services">
-            <Link to={"/s_detail"} className="service">
-              <div className="service_image">
-                <img src="/assets/images/other/caspianenergy_only.png" alt="" />
-              </div>
-              <div className="text">
-                <h5>CASPIAN ENERGY CO</h5>
-                {/* <p>
-                  Keep away from people who try to belittle your ambitions.
-                  Small people always do that but the really great.
-                </p> */}
-              </div>
-            </Link>
+
             <div className="service">
               <div className="service_image">
                 <img src="/assets/images/other/gold_construction.png" alt="" />

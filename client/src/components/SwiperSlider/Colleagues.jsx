@@ -12,7 +12,7 @@ const Colleagues = () => {
       <Swiper
         spaceBetween={30}
         // centeredSlides={true}
-        slidesPerView={4}
+        slidesPerView={1}
         loop={true}
         autoplay={{
           delay: 2500,
