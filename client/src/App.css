@@ -16,12 +16,14 @@
 }
 #services_section,
 #about_sec,
-#goals_section {
+#goals_section,
+#certificates_sec {
   margin-top: 90px;
 }
 #services_section .container h3,
 #about_sec .container h3,
-#goals_section .container h3 {
+#goals_section .container h3,
+#certificates_sec .container h3 {
   font-weight: 300;
   font-size: 32px;
   line-height: 48px;
@@ -38,7 +40,9 @@
 #goals_section .container h3::before,
 #goals_section .container h3::after,
 #about_sec .container h3::before,
-#about_sec .container h3::after {
+#about_sec .container h3::after,
+#certificates_sec .container h3::before,
+#certificates_sec .container h3::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -50,7 +54,8 @@
 }
 #services_section .container h3::after,
 #about_sec .container h3::after,
-#goals_section .container h3::after {
+#goals_section .container h3::after,
+#certificates_sec .container h3::after {
   width: 50%;
   height: 4px;
   transform: translate(-50%, -50%);
@@ -106,6 +111,30 @@
 .service:hover h5 {
   color: white;
 }
+#cerificates {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.certificat {
+  width: calc((100% - 60px) / 3);
+}
+.certificat img {
+  width: 100%;
+}
+@media (max-width: 1000px) {
+  .certificat {
+    width: calc((100% - 30px) / 2);
+  }
+}
+@media (max-width: 500px) {
+  .certificat {
+    width: 100%;
+  }
+}
+
 @keyframes service_animation {
   0% {
     transform: translateY(-20px);

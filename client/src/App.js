@@ -10,6 +10,7 @@ import Services_detail from "./pages/Services_detail";
 import Service from "./pages/Service";
 import { useEffect } from "react";
 import Services from "./pages/Services";
+import Certificate from "./pages/Certificate";
 function App() {
   const location = useLocation();
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/s_detail" element={<Services_detail />} />
         <Route path="/companies" element={<Service />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/certificates" element={<Certificate />} />
       </Routes>
       <Footer />
     </div>
