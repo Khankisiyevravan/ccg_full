@@ -24,6 +24,12 @@ const Header = () => {
   };
 
   useEffect(() => {
+    // fetch(
+    //   "https://admin.caspiancapitalgroup.az/api/companies/1?locale=&&populate=*"
+    // )
+    //   .then((response) => response.json())
+    //   .then((response) => console.log(response));
+
     window.addEventListener("scroll", handleScroll);
 
     return () => {
