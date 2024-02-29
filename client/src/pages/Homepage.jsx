@@ -32,7 +32,7 @@ const Homepage = () => {
               </button>
             </div>
             <div id="about_image">
-              <img src="/assets/images/other/haqda.jpeg" alt="" />
+              <img src="/assets/images/other/about.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -43,17 +43,12 @@ const Homepage = () => {
             Bizim <strong>Şirkətlər</strong>
           </h3>
           <div id="services">
-
             <div className="service">
               <div className="service_image">
                 <img src="/assets/images/other/gold_construction.png" alt="" />
               </div>
               <div className="text">
                 <h5>GOLD CONSTRUCTION 2020</h5>
-                {/* <p>
-                  Keep away from people who try to belittle your ambitions.
-                  Small people always do that but the really great.
-                </p> */}
               </div>
             </div>
             <div className="service">
@@ -62,10 +57,6 @@ const Homepage = () => {
               </div>
               <div className="text">
                 <h5>ND COMPANY</h5>
-                {/* <p>
-                  Keep away from people who try to belittle your ambitions.
-                  Small people always do that but the really great.
-                </p> */}
               </div>
             </div>
             <div className="service">
@@ -74,10 +65,6 @@ const Homepage = () => {
               </div>
               <div className="text">
                 <h5>ELTA GLOBAL</h5>
-                {/* <p>
-                  Keep away from people who try to belittle your ambitions.
-                  Small people always do that but the really great.
-                </p> */}
               </div>
             </div>
             <div className="service">
@@ -86,10 +73,6 @@ const Homepage = () => {
               </div>
               <div className="text">
                 <h5>ETA OIL</h5>
-                {/* <p>
-                  Keep away from people who try to belittle your ambitions.
-                  Small people always do that but the really great.
-                </p> */}
               </div>
             </div>
             <div className="service">
@@ -98,10 +81,6 @@ const Homepage = () => {
               </div>
               <div className="text">
                 <h5>EKOFARM</h5>
-                {/* <p>
-                  Keep away from people who try to belittle your ambitions.
-                  Small people always do that but the really great.
-                </p> */}
               </div>
             </div>
             <div className="service">
@@ -110,10 +89,6 @@ const Homepage = () => {
               </div>
               <div className="text">
                 <h5>AZSAFE CITY</h5>
-                {/* <p>
-                  Keep away from people who try to belittle your ambitions.
-                  Small people always do that but the really great.
-                </p> */}
               </div>
             </div>
           </div>
