@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "colleagues",
+  "info": {
+    "singularName": "colleague",
+    "pluralName": "colleagues",
+    "displayName": "Colleagues"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
