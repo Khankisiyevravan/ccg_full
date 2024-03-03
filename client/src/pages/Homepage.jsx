@@ -8,7 +8,7 @@ const Homepage = () => {
   return (
     <>
       <VideoSection />
-      <section id="about_sec">
+      {/* <section id="about_sec">
         <div className="container">
           <div id="about_main">
             <div id="about_text">
@@ -116,7 +116,6 @@ const Homepage = () => {
                 təqdim edərək, müştərilərin gözləntilərini qarşılamaq və davamlı
                 inkişafı təmin etmək üçün fəaliyyət göstəririk.
               </p>
-              {/* <button>Ətraflı...</button> */}
             </div>
           </div>
           <h3>
@@ -162,14 +161,13 @@ const Homepage = () => {
                 olunduğu bir dünya formalaşdırmaq üçün çalışacağıq.
               </p>
 
-              {/* <button>Ətraflı...</button> */}
             </div>
           </div>
         </div>
       </section>
       <Statics />
       <Colleagues />
-      <Contact />
+      <Contact /> */}
     </>
   );
 };

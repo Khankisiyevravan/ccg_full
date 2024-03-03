@@ -2,9 +2,18 @@ import React, { useEffect, useRef } from "react";
 import WOW from "wowjs";
 import "./VideoSection.css";
 import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import AnimatedText from "../animation/AnimatedText";
 const VideoSection = () => {
   const videoRef = useRef(null);
+  const text =
+    "Şirkətimiz, inşaat, mühəndislik, sənaye, təchizat, treydinq ve kənd təsərrüfatı sahələrində fəaliyyət göstərən beş fərqlisektorda xidmət verən bir şirkətlər qrubudur";
   useEffect(() => {
+    AOS.init({
+      once: true,
+      mirror: false,
+    });
     new WOW.WOW().init();
     if (videoRef.current) {
       videoRef.current.load();
@@ -12,6 +21,13 @@ const VideoSection = () => {
         console.error("Error attempting to play the video:", error);
       });
     }
+  }, []);
+  useEffect(() => {
+    // Fetch data and update state
+    // fetchData().then(data => {
+    // setMyData(data);
+    // AOS.refresh(); // Refresh AOS
+    // });
   }, []);
   return (
     <section id="video_section">
@@ -31,11 +47,14 @@ const VideoSection = () => {
           <h3>
             Caspian <strong>Şirkətlər</strong> Qrupu
           </h3>
-          <p>
+          {/* <p data-aos="fade-up" data-aos-duration="1000"> */}
+          <AnimatedText text={text} />
+          {/* <p>
             Şirkətimiz, inşaat, mühəndislik, sənaye, təchizat, treydinq ve kənd
             təsərrüfatı sahələrində <br /> fəaliyyət göstərən beş fərqli
             sektorda xidmət verən bir şirkətlər qrubudur .
-          </p>
+          </p> */}
+
           <div>
             {/* <button>
               <Link to="/services">Xidmətlər</Link>

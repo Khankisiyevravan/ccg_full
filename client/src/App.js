@@ -11,12 +11,19 @@ import Service from "./pages/Service";
 import { useEffect } from "react";
 import Services from "./pages/Services";
 import Certificate from "./pages/Certificate";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
   const location = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);
-
+  useEffect(() => {
+    AOS.init({
+      once: false,
+      mirror: false,
+    });
+  }, []);
   return (
     <div className="App">
       <Header />
@@ -30,7 +37,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/certificates" element={<Certificate />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

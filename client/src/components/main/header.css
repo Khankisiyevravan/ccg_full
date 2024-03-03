@@ -23,11 +23,13 @@ header .container div {
   display: flex;
   align-items: center;
 }
+
 header .container div > ul {
   display: flex;
   align-items: center;
   gap: 44px;
 }
+
 header .container div > ul li a {
   font-size: 16px;
   line-height: 20px;
@@ -49,6 +51,9 @@ header.scroll .container div > ul li a {
   display: none;
   font-size: 24px;
 }
+#cancel_btn {
+  font-size: 30px;
+}
 @media (max-width: 1000px) {
   header .container {
     align-items: center;
@@ -69,12 +74,19 @@ header.scroll .container div > ul li a {
   }
   header .container div#ul ul {
     flex-direction: column;
-    padding: 90px 20px 20px 20px;
+    padding: 90px 20px 20px 60px;
     align-items: flex-start;
+  }
+  header .container div > ul li::marker {
+    color: rgba(127, 97, 14, 1);
+    font-weight: 700;
+    font-size: 18px;
+  }
+  header .container div > ul li {
+    list-style: decimal-leading-zero;
   }
   header .container div ul li a {
     color: black;
-    /* text-align: right; */
   }
   #bar_menu,
   #cancel_btn {

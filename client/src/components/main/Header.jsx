@@ -45,7 +45,8 @@ const Header = () => {
         </Link>
         <div id="ul" className={menuShow && "show"}>
           <div id="cancel_btn" onClick={() => setMenuShow(false)}>
-            <i className="fa-sharp fa-light fa-x"></i>
+            {/* <i className="fa-sharp fa-light fa-x"></i> */}
+            <i class="fa-light fa-xmark"></i>
           </div>
           <ul>
             <li>
