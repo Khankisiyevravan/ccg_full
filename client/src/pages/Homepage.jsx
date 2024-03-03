@@ -8,6 +8,48 @@ const Homepage = () => {
   return (
     <>
       <VideoSection />
+      <section id="about_section">
+        <div className="container">
+          <div id="about_section_image">
+            <img src="/assets/images/catalog_images/about.jpeg" alt="" />
+          </div>
+          <div id="about_section_text">
+            <h3>
+              İnşaat-layihələndirmə <br /> Təchizat və nümayəndəlik
+            </h3>
+            <p>
+              Şirkətlərimiz inşaat-layihələndirmə, təchizat, mühəndis və servis
+              xidmətləri sahələrində fəaliyyət göstərən şirkətlər qrupudur.
+            </p>
+            <p>
+              Caspian Capital Group fəaliyyət göstərdiyi sahələr üzrə
+              ixtsaslaşmış şirkətləri, peşakar komandası, qabaqcıl təcrübəsi,
+              müasir və innovativ yanaşması ilə müştərilərinə keyfiyyətli və
+              etibarlə xidmətlərini uğurla təqdim edir
+            </p>
+            <h4>Şirkətlərimiz</h4>
+            <div>
+              <div className="company_card">
+                <div className="company_card_logo">
+                  <img src="/assets/images/catalog_images/nd.jpg" alt="" />
+                </div>
+                <div className="company_card_name">ND Company QSC</div>
+              </div>
+              <div className="company_card">
+                <div className="company_card_logo">
+                  <img
+                    src="/assets/images/catalog_images/goldconstruction2020.png"
+                    alt=""
+                  />
+                </div>
+                <div className="company_card_name">
+                  Gold Construction 2020 MMC
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* <section id="about_sec">
         <div className="container">
           <div id="about_main">

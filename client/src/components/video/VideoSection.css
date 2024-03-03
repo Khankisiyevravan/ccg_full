@@ -2,7 +2,6 @@
   height: 100svh;
   overflow: hidden;
   position: relative;
-  /* z-index: ; */
 }
 #video_section .container {
   height: 100%;
@@ -41,27 +40,20 @@
   font-weight: 100;
   color: white;
   font-family: "Raleway", sans-serif;
+  margin-bottom: 20px;
 }
 
 #video_section h3 strong {
   font-weight: 300;
   font-family: "Raleway", sans-serif;
 }
-@keyframes slideUp {
-  from {
-    transform: translateY(-100%); /* Animasyon başlangıçta metni gizler */
-  }
-  to {
-    transform: translateY(0); /* Animasyon sonunda metin tamamen görünür */
-  }
-}
+
 #video_text p {
-  margin-top: 20px;
   color: white;
   font-size: 18px;
   line-height: 24.6px;
   overflow: hidden;
-  animation: slideUp 5s ease-in-out infinite;
+  max-width: 800px;
 }
 #video_text button,
 #about_main button {
@@ -99,7 +91,7 @@
   color: rgb(127, 97, 14);
   font-weight: 600;
 }
-#video_text div {
+#video_buttons {
   margin-top: 40px;
   display: flex;
   gap: 20px;

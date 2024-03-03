@@ -12,5 +12,5 @@
 
 .animatedLine {
   opacity: 0;
-  animation: slideUpAndFade 5s forwards;
+  animation: slideUpAndFade 0.5s forwards;
 }

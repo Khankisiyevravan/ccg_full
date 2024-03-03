@@ -4,11 +4,11 @@ import "./VideoSection.css";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import AnimatedText from "../animation/AnimatedText";
+import AnimatedText from "../animation/AnimationText";
 const VideoSection = () => {
   const videoRef = useRef(null);
   const text =
-    "Şirkətimiz, inşaat, mühəndislik, sənaye, təchizat, treydinq ve kənd təsərrüfatı sahələrində fəaliyyət göstərən beş fərqlisektorda xidmət verən bir şirkətlər qrubudur";
+    "Şirkətimiz, inşaat, mühəndislik, sənaye, təchizat, treydinq ve kənd təsərrüfatı sahələrində \n fəaliyyət göstərən beş fərqlisektorda xidmət verən bir şirkətlər qrubudur";
   useEffect(() => {
     AOS.init({
       once: true,
@@ -22,13 +22,7 @@ const VideoSection = () => {
       });
     }
   }, []);
-  useEffect(() => {
-    // Fetch data and update state
-    // fetchData().then(data => {
-    // setMyData(data);
-    // AOS.refresh(); // Refresh AOS
-    // });
-  }, []);
+
   return (
     <section id="video_section">
       <div className="container">
@@ -47,15 +41,13 @@ const VideoSection = () => {
           <h3>
             Caspian <strong>Şirkətlər</strong> Qrupu
           </h3>
-          {/* <p data-aos="fade-up" data-aos-duration="1000"> */}
-          <AnimatedText text={text} />
-          {/* <p>
+          <p>
             Şirkətimiz, inşaat, mühəndislik, sənaye, təchizat, treydinq ve kənd
-            təsərrüfatı sahələrində <br /> fəaliyyət göstərən beş fərqli
-            sektorda xidmət verən bir şirkətlər qrubudur .
-          </p> */}
+            təsərrüfatı sahələrində fəaliyyət göstərən beş fərqli sektorda
+            xidmət verən bir şirkətlər qrubudur .
+          </p>
 
-          <div>
+          <div id="video_buttons">
             {/* <button>
               <Link to="/services">Xidmətlər</Link>
             </button> */}
