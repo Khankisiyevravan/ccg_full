@@ -5,7 +5,7 @@ const Certificates = () => {
     <>
       <section id="certificates_sec">
         <div className="container">
-          <h3>Setifikatlar</h3>
+          <h3>Sertifikatlar</h3>
           <div id="cerificates">
             <div className="certificat">
               <img src="/assets/images/certificates/cer1.jpg" alt="" />
