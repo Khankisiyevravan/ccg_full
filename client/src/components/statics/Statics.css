@@ -1,0 +1,90 @@
+#counter .container .number-counters {
+  display: flex;
+  justify-content: space-between;
+}
+#counter .container .number-counters > div {
+  margin: 100px 0;
+}
+#counter .number-counters .counters-item {
+  margin-bottom: 0;
+}
+
+#counter .number-counters .counters-item i {
+  color: white;
+}
+#counter {
+  background: url("/public/assets/images/catalog_images/keyfiyyet.png")
+    no-repeat;
+  position: relative;
+  z-index: 1;
+}
+#counter::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(4, 10, 68, 0.6);
+  z-index: -1;
+}
+#experts,
+#parallax,
+.page_header,
+#counter {
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#parallax,
+#experts,
+#experts p,
+#counter,
+#counter p {
+  color: #fff;
+}
+#parallax h1 {
+  font-weight: 200;
+}
+
+#parallax {
+  background-position: 50% -13px;
+}
+
+#parallax h2 {
+  font-size: 1.65rem;
+  font-weight: 200;
+}
+.number-counters .counters-item {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.number-counters .counters-item i {
+  color: rgba(127, 97, 14, 1);
+  display: block;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.number-counters .counters-item strong {
+  display: block;
+  font-size: 3rem;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+
+.number-counters .counters-item p {
+  font-size: 1.125rem;
+}
+
+#facts .fact-image {
+  width: 100%;
+}
+@media (max-width: 700px) {
+  #counter .container .number-counters {
+    flex-direction: column;
+  }
+}

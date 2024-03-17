@@ -8,18 +8,18 @@ const Header = () => {
   const [menuShow, setMenuShow] = useState(false);
   const [headerClass, setHeaderClass] = useState(true);
   const [logoSrc, setLogoSrc] = useState(
-    "/assets/images/ccg/logo_gold_white.png"
+    "/assets/images/ccg/bg_logo_white.png"
   );
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
     if (scrollPosition > 0) {
       setHeaderClass(false);
       setHeaderStyle({ backgroundColor: "rgba(255, 255, 255, 0.933)" });
-      setLogoSrc("/assets/images/ccg/logo_gold_black.png");
+      setLogoSrc("/assets/images/ccg/bg_logo_blue.png");
     } else {
       setHeaderClass(true);
       setHeaderStyle({ backgroundColor: "transparent" });
-      setLogoSrc("/assets/images/ccg/logo_gold_white.png");
+      setLogoSrc("/assets/images/ccg/bg_logo_white.png");
     }
   };
 
@@ -38,28 +38,27 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={!headerClass && "scroll"}>
+    <header className={!headerClass ? "scroll" : ""}>
       <div className="container">
         <Link to="/" className="logo">
           <img src={logoSrc} alt="" />
         </Link>
-        <div id="ul" className={menuShow && "show"}>
+        <div id="ul" className={menuShow ? "show" : ""}>
           <div id="cancel_btn" onClick={() => setMenuShow(false)}>
-            {/* <i className="fa-sharp fa-light fa-x"></i> */}
-            <i class="fa-light fa-xmark"></i>
+            <i className="fa-light fa-xmark"></i>
           </div>
           <ul>
             <li>
               <Link to=""> Ana Səhifə </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/companies"> Şirkətlər </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/about">Haqqımızda </Link>
             </li>
             <li>
-              <Link to="/blog">Xəbərlər </Link>
+              <Link to="/News">Xəbərlər </Link>
             </li>
             <li>
               <Link to="/certificates"> Sertifikatlar </Link>
@@ -71,7 +70,7 @@ const Header = () => {
         </div>
         <div
           id="bar_menu"
-          style={headerClass ? { color: "white" } : { color: "black" }}
+          style={headerClass ? { color: "white" } : { color: "white" }}
           onClick={() => setMenuShow(true)}
         >
           <i className="fa-sharp fa-regular fa-bars"></i>

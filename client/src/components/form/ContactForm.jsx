@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "../../api/axios";
-
+import "./ContactForm.css";
 const Contact = () => {
   const [contactData, setContactData] = useState({
     full_name: "",
@@ -38,11 +38,11 @@ const Contact = () => {
   return (
     <>
       <section id="contact_form">
-        <div class="container">
-          <div class="contact">
+        <div className="container">
+          <div className="contact">
             <h2>
               Əlaqə <span> məlumatları</span>
-              <span class="underline"></span>
+              <span className="underline"></span>
             </h2>
             <p style={{ marginTop: "20px" }}>
               Aşağıdakı məlumatları istifadə edərək bizimlə əlaqə saxlaya
@@ -50,21 +50,21 @@ const Contact = () => {
             </p>
             <div id="icons">
               <div id="icon_first">
-                <i class="fa-light fa-location-dot"></i>
+                <i className="fa-light fa-location-dot"></i>
                 <div>
                   <h4>Məkan</h4>
                   <span>Bakı şəhəri, Ibrahimpaşa Dadaşov 37</span>
                 </div>
               </div>
               <div id="icon_second">
-                <i class="fa-solid fa-envelope-open"></i>
+                <i className="fa-solid fa-envelope-open"></i>
                 <div>
                   <h4>E-poçt</h4>
                   <span>info@caspiancapitalgroup.az</span>
                 </div>
               </div>
               <div id="icon_third">
-                <i class="fa-solid fa-phone"></i>
+                <i className="fa-solid fa-phone"></i>
                 <div>
                   <h4>Əlaqə nömrələri</h4>
                   <span>
@@ -77,27 +77,27 @@ const Contact = () => {
           <div id="form">
             <h2>
               Əlaqə <span>formu </span>
-              <span class="underline"></span>
+              <span className="underline"></span>
             </h2>
             <div id="form_input">
               <input
                 type="text"
                 placeholder="Soyad Ad"
-                class="name_email_web"
+                className="name_email_web"
                 name="full_name"
                 onChange={(e) => handleChange(e)}
               />
               <input
                 type="text"
                 placeholder="E-poçt"
-                class="name_email_web"
+                className="name_email_web"
                 name="email"
                 onChange={(e) => handleChange(e)}
               />
               <input
                 type="text"
                 placeholder="Başlıq"
-                class="name_email_web"
+                className="name_email_web"
                 name="title"
                 onChange={(e) => handleChange(e)}
               />
@@ -113,23 +113,23 @@ const Contact = () => {
             </button>
             <ul id="first_ul">
               <li>
-                <a href="#" class="facebook">
-                  <i class="fa-brands fa-facebook-f"></i>
+                <a href="#" className="facebook">
+                  <i className="fa-brands fa-facebook-f"></i>
                 </a>
               </li>
               <li>
-                <a href="#" class="twit_vimeo">
-                  <i class="fa-brands fa-twitter"></i>
+                <a href="#" className="twit_vimeo">
+                  <i className="fa-brands fa-twitter"></i>
                 </a>
               </li>
               <li>
-                <a href="#" class="dribbble">
-                  <i class="fa-brands fa-dribbble"></i>
+                <a href="#" className="dribbble">
+                  <i className="fa-brands fa-dribbble"></i>
                 </a>
               </li>
               <li>
-                <a href="#" class="instagram">
-                  <i class="fa-brands fa-square-instagram"></i>
+                <a href="#" className="instagram">
+                  <i className="fa-brands fa-square-instagram"></i>
                 </a>
               </li>
             </ul>

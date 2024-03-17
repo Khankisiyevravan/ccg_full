@@ -1,0 +1,175 @@
+footer {
+  background: rgba(4, 10, 68, 0.933);
+  margin-top: 100px;
+}
+
+.box {
+  width: 30%;
+}
+
+.box h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  border-bottom: 1px solid #dadada;
+  width: 100%;
+}
+
+#boxes {
+  padding-top: 100px;
+}
+
+h3 span {
+  display: block;
+  margin: 10px 0 -2px;
+  height: 4px;
+  width: 70px;
+  background: white;
+}
+
+.box p {
+  color: white;
+  line-height: normal;
+  font-size: 0.9rem;
+  font-family: "Open Sans";
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.img_box a {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.box #one_ul {
+  display: flex;
+  gap: 7px;
+}
+
+#one_ul li {
+  width: 36px;
+  height: 36px;
+  border-radius: 4px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+#one_ul a {
+  color: white;
+}
+
+#boxes {
+  display: flex;
+  gap: 30px;
+}
+
+#second_ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+#second_ul li {
+  width: 50%;
+  height: 40px;
+}
+
+#second_ul li a {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  display: inline-block;
+  position: relative;
+}
+
+#second_ul li:hover a::after {
+  background: #ffffff;
+  bottom: 0;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  left: 0;
+  margin-left: 10px;
+  position: absolute;
+  right: 50%;
+  width: 100%;
+}
+
+p i {
+  width: 25px;
+}
+
+p a {
+  font-family: "Open Sans";
+  color: white;
+  font-size: 0.9rem;
+  line-height: normal;
+}
+
+#img_footer {
+  width: 100%;
+}
+
+#under_footer {
+  height: 60px;
+}
+
+#under_footer_text {
+  text-align: center;
+  line-height: 60px;
+  font-size: 0.875rem;
+}
+
+#under_footer_text a {
+  color: inherit;
+}
+
+#under_footer_text a:hover {
+  color: rgba(4, 10, 68, 0.933);
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1000px) {
+
+  footer {
+    background: rgba(4, 10, 68, 0.933);
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  #boxes {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .box {
+    width: 100%;
+  }
+  #img_footer {
+    width: 50%;
+  }
+  #under_footer_text {
+    text-align: left;
+    font-size: 0.805rem;
+  }
+  .box p {
+    font-size: 0.8rem;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+}

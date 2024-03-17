@@ -11,18 +11,20 @@ import Service from "./pages/Service";
 import { useEffect } from "react";
 import Services from "./pages/Services";
 import Certificate from "./pages/Certificate";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import News from "./pages/News";
+import NewsDetail from "./pages/NewsDetail";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 function App() {
   const location = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);
   useEffect(() => {
-    AOS.init({
-      once: false,
-      mirror: false,
-    });
+    // AOS.init({
+    //   once: false,
+    //   mirror: false,
+    // });
   }, []);
   return (
     <div className="App">
@@ -36,8 +38,13 @@ function App() {
         <Route path="/companies" element={<Service />} />
         <Route path="/services" element={<Services />} />
         <Route path="/certificates" element={<Certificate />} />
+        <Route path="/news" element={<News />} />
+        <Route
+          path="/caspian-capital-group-sirkəti-ilə-turkiyənin-ozgun-insaat-sirkəti-arasida-sazis-imzalanib/"
+          element={<NewsDetail />}
+        />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

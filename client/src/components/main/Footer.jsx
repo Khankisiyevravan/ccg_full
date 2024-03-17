@@ -1,17 +1,17 @@
 import React from "react";
-
+import "./Footer.css"
 const Footer = () => {
   return (
     <>
       <footer>
-        <div class="container">
+        <div className="container">
           <div id="boxes">
-            <div class="box">
+            <div className="box">
               <h3>
                 Haqqımızda
                 <span></span>
               </h3>
-              <div class="img_box">
+              <div className="img_box">
                 <a href="#">
                   <img
                     src="/assets/images/ccg/logo_ag.png"
@@ -30,34 +30,34 @@ const Footer = () => {
                   <a
                     target="_blank"
                     href="https://www.facebook.com/caspiancapitalgroup.az"
-                    class="facebook"
+                    className="facebook"
                   >
-                    <i class="fa-brands fa-facebook-f"></i>
+                    <i className="fa-brands fa-facebook-f"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="twit_vimeo">
-                    <i class="fa-brands fa-twitter"></i>
+                  <a href="#" className="twit_vimeo">
+                    <i className="fa-brands fa-twitter"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="dribbble">
-                    <i class="fa-brands fa-dribbble"></i>
+                  <a href="#" className="dribbble">
+                    <i className="fa-brands fa-dribbble"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="instagram">
-                    <i class="fa-brands fa-square-instagram"></i>
+                  <a href="#" className="instagram">
+                    <i className="fa-brands fa-square-instagram"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="twit_vimeo">
-                    <i class="fa-brands fa-vimeo-v"></i>
+                  <a href="#" className="twit_vimeo">
+                    <i className="fa-brands fa-vimeo-v"></i>
                   </a>
                 </li>
               </ul>
             </div>
-            <div class="box">
+            <div className="box">
               <h3>
                 Mənbələr
                 <span></span>
@@ -66,7 +66,7 @@ const Footer = () => {
                 <li>
                   <a href="#">
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ fontSize: "12px" }}
                     ></i>{" "}
                     Ana səhifə
@@ -75,7 +75,7 @@ const Footer = () => {
                 <li>
                   <a href="#">
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ fontSize: "12px" }}
                     ></i>{" "}
                     Şirkətlər
@@ -84,7 +84,7 @@ const Footer = () => {
                 <li>
                   <a href="#">
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ fontSize: "12px" }}
                     ></i>{" "}
                     Haqqımızda
@@ -93,7 +93,7 @@ const Footer = () => {
                 <li>
                   <a href="#">
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ fontSize: "12px" }}
                     ></i>{" "}
                     Xəbərlər
@@ -102,7 +102,7 @@ const Footer = () => {
                 <li>
                   <a href="#">
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ fontSize: "12px" }}
                     ></i>{" "}
                     Bizimlə Əlaqə
@@ -111,7 +111,7 @@ const Footer = () => {
                 <li>
                   <a href="#">
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ fontSize: "12px" }}
                     ></i>{" "}
                     Sektorlar
@@ -120,7 +120,7 @@ const Footer = () => {
                 <li>
                   <a href="#">
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ fontSize: "12px" }}
                     ></i>{" "}
                     Sertifikatlar
@@ -129,7 +129,7 @@ const Footer = () => {
                 <li>
                   <a href="#">
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ fontSize: "12px" }}
                     ></i>{" "}
                     Əməkdaşlıq
@@ -138,7 +138,7 @@ const Footer = () => {
                 {/* <li>
                   <a href="#">
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ fontSize: "12px" }}
                     ></i>{" "}
                     Shop
@@ -147,7 +147,7 @@ const Footer = () => {
                 <li>
                   <a href="#">
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ fontSize: "12px" }}
                     ></i>{" "}
                     Contact Us
@@ -155,21 +155,21 @@ const Footer = () => {
                 </li> */}
               </ul>
             </div>
-            <div class="box">
+            <div className="box">
               <h3>
-                Keep in Touch
+                Əlaqə saxlayın
                 <span></span>
               </h3>
               <p>
-                <i class="fa-light fa-location-dot"></i>
+                <i className="fa-light fa-location-dot"></i>
                 Bakı şəhəri, Ibrahimpaşa Dadaşov 37
               </p>
               <p>
-                <i class="fa-solid fa-mobile-screen"></i>+994 12 541 65 75 ,
+                <i className="fa-solid fa-mobile-screen"></i>+994 12 541 65 75 ,
                 +994 50 224 31 70 ( Wp )
               </p>
               <p>
-                <i class="fa-thin fa-envelope-open"></i>
+                <i className="fa-thin fa-envelope-open"></i>
                 <a href="#">info@caspiancapitalgroup.az</a>
               </p>
               <div id="img_in_footer">
@@ -183,14 +183,14 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div id="under_footer">
-        <div class="container">
+      {/* <div id="under_footer">
+        <div className="container">
           <p id="under_footer_text">
             Copyright © 2024
             <a href="#"> ССG</a>. all rights reserved.
           </p>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

@@ -4,14 +4,14 @@ import Contact from "../components/form/ContactForm";
 const Services_detail = () => {
   return (
     <>
-      {/* <section class="background_foto">
+      {/* <section className="background_foto">
       
-          <div class="flex_end">
-            <div class="page_nav">
+          <div className="flex_end">
+            <div className="page_nav">
               <a href="#">Ana səhifə</a>
               <span>
                 <i
-                  class="fa-solid fa-chevrons-right"
+                  className="fa-solid fa-chevrons-right"
                   style={{ fontSize: "9px" }}
                 ></i>
                 CapianEnergyCo
@@ -21,7 +21,7 @@ const Services_detail = () => {
         </div>
       </section>
       <section id="sdetails_section">
-        <div class="container">
+        <div className="container">
           <div id="left_detail">
             <div
               id="img_in_details"

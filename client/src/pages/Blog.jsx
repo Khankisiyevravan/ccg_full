@@ -4,18 +4,18 @@ import { Link } from "react-router-dom";
 const Blog = () => {
   return (
     <>
-      <section class="background_foto">
-        <div class="container">
+      <section className="background_foto">
+        <div className="container">
           <h1>Yeniliklər</h1>
           <p></p>
-          <div class="flex_end">
-            <div class="page_nav">
+          <div className="flex_end">
+            <div className="page_nav">
               <Link to="/" href="#">
                 Ana səhifə
               </Link>
               <span>
                 <i
-                  class="fa-solid fa-chevrons-right"
+                  className="fa-solid fa-chevrons-right"
                   style={{ fontSize: "9px", paddingRight: "5px" }}
                 ></i>
                 Blog
@@ -25,18 +25,18 @@ const Blog = () => {
         </div>
       </section>
       <section id="blog">
-        <div class="container">
+        <div className="container">
           <div id="column_divs_first">
             Xəbər yoxdur !!!
-            {/* <div class="column_div_first">
-              <div class="img_in_column_div">
+            {/* <div className="column_div_first">
+              <div className="img_in_column_div">
                 <img
                   src="https://www.themesindustry.com/html/xwin/images/blog1.jpg"
                   alt=""
-                  class="img_own"
+                  className="img_own"
                 />
               </div>
-              <div class="text_in_column_div">
+              <div className="text_in_column_div">
                 <h3>Before Making your Dream Living Room Make 3D Room Model</h3>
                 <ul>
                   <li>
@@ -44,7 +44,7 @@ const Blog = () => {
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa-regular fa-message-lines"></i> 5
+                      <i className="fa-regular fa-message-lines"></i> 5
                     </a>
                   </li>
                 </ul>
@@ -58,18 +58,18 @@ const Blog = () => {
                   assumenda cum delectus eaque eligendi, enim eum excepturi
                   fugit illum impedit in iste laudantium modi natus […]
                 </p>
-                <button class="read_more_btn">READ MORE</button>
+                <button className="read_more_btn">READ MORE</button>
               </div>
             </div>
-            <div class="column_div_first">
-              <div class="img_in_column_div">
+            <div className="column_div_first">
+              <div className="img_in_column_div">
                 <img
                   src="https://www.themesindustry.com/html/xwin/images/blog1.jpg"
                   alt=""
-                  class="img_own"
+                  className="img_own"
                 />
               </div>
-              <div class="text_in_column_div">
+              <div className="text_in_column_div">
                 <h3>Before Making your Dream Living Room Make 3D Room Model</h3>
                 <ul>
                   <li>
@@ -77,7 +77,7 @@ const Blog = () => {
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa-regular fa-message-lines"></i> 5
+                      <i className="fa-regular fa-message-lines"></i> 5
                     </a>
                   </li>
                 </ul>
@@ -91,18 +91,18 @@ const Blog = () => {
                   assumenda cum delectus eaque eligendi, enim eum excepturi
                   fugit illum impedit in iste laudantium modi natus […]
                 </p>
-                <button class="read_more_btn">READ MORE</button>
+                <button className="read_more_btn">READ MORE</button>
               </div>
             </div>
-            <div class="column_div_first">
-              <div class="img_in_column_div">
+            <div className="column_div_first">
+              <div className="img_in_column_div">
                 <img
                   src="https://www.themesindustry.com/html/xwin/images/blog1.jpg"
                   alt=""
-                  class="img_own"
+                  className="img_own"
                 />
               </div>
-              <div class="text_in_column_div">
+              <div className="text_in_column_div">
                 <h3>Before Making your Dream Living Room Make 3D Room Model</h3>
                 <ul>
                   <li>
@@ -110,7 +110,7 @@ const Blog = () => {
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa-regular fa-message-lines"></i> 5
+                      <i className="fa-regular fa-message-lines"></i> 5
                     </a>
                   </li>
                 </ul>
@@ -124,84 +124,84 @@ const Blog = () => {
                   assumenda cum delectus eaque eligendi, enim eum excepturi
                   fugit illum impedit in iste laudantium modi natus […]
                 </p>
-                <button class="read_more_btn">READ MORE</button>
+                <button className="read_more_btn">READ MORE</button>
               </div>
             </div> */}
           </div>
           {/* <aside id="featured_courses">
             <form>
               <input type="text" id="search" placeholder="Search Here" />
-              <i class="fa-light fa-magnifying-glass"></i>
+              <i className="fa-light fa-magnifying-glass"></i>
             </form>
             <div>
               <h3>Featured Courses</h3>
-              <div class="ds_flex">
-                <div class="img_in_aside">
+              <div className="ds_flex">
+                <div className="img_in_aside">
                   <a href="#">
                     <img
                       src="https://www.themesindustry.com/html/xwin/images/post1.png"
                       alt=""
-                      class="img_own_in_aside"
+                      className="img_own_in_aside"
                     />
                   </a>
                 </div>
-                <div class="text_aside">
+                <div className="text_aside">
                   <h5>BASIC TIME MANAGEMENT COURSE</h5>
-                  <button class="free_btn">FREE</button>
-                  <div class="icons_aside">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
+                  <button className="free_btn">FREE</button>
+                  <div className="icons_aside">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
                   </div>
-                  <span class="name_in_aside">Michael Windzor</span>
+                  <span className="name_in_aside">Michael Windzor</span>
                 </div>
               </div>
-              <div class="ds_flex">
-                <div class="img_in_aside">
+              <div className="ds_flex">
+                <div className="img_in_aside">
                   <a href="#">
                     <img
                       src="https://www.themesindustry.com/html/xwin/images/post1.png"
                       alt=""
-                      class="img_own_in_aside"
+                      className="img_own_in_aside"
                     />
                   </a>
                 </div>
-                <div class="text_aside">
+                <div className="text_aside">
                   <h5>BASIC TIME MANAGEMENT COURSE</h5>
-                  <button class="free_btn">FREE</button>
-                  <div class="icons_aside">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
+                  <button className="free_btn">FREE</button>
+                  <div className="icons_aside">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
                   </div>
-                  <span class="name_in_aside">Michael Windzor</span>
+                  <span className="name_in_aside">Michael Windzor</span>
                 </div>
               </div>
-              <div class="ds_flex">
-                <div class="img_in_aside">
+              <div className="ds_flex">
+                <div className="img_in_aside">
                   <a href="#">
                     <img
                       src="https://www.themesindustry.com/html/xwin/images/post1.png"
                       alt=""
-                      class="img_own_in_aside"
+                      className="img_own_in_aside"
                     />
                   </a>
                 </div>
-                <div class="text_aside">
+                <div className="text_aside">
                   <h5>BASIC TIME MANAGEMENT COURSE</h5>
-                  <button class="free_btn">FREE</button>
-                  <div class="icons_aside">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
+                  <button className="free_btn">FREE</button>
+                  <div className="icons_aside">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
                   </div>
-                  <span class="name_in_aside">Michael Windzor</span>
+                  <span className="name_in_aside">Michael Windzor</span>
                 </div>
               </div>
               <div id="top_tags">
@@ -241,7 +241,7 @@ const Blog = () => {
         </div>
       </section>
       {/* <section id="transition_section">
-        <div class="container">
+        <div className="container">
           <ul>
             <li>
               <a href="#">1</a>
@@ -256,7 +256,7 @@ const Blog = () => {
               <a href="#">
                 Next{" "}
                 <i
-                  class="fa-solid fa-arrow-right"
+                  className="fa-solid fa-arrow-right"
                   //   style="font-size: 19px; margin-left: 5px;"
                   style={{ fontSize: "19px", marginLeft: "5px" }}
                 ></i>

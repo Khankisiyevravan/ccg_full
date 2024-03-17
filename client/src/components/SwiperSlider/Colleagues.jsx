@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import "./Colleagues.css"
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -12,7 +12,7 @@ const Colleagues = () => {
       <Swiper
         spaceBetween={30}
         // centeredSlides={true}
-        slidesPerView={1}
+        slidesPerView={2}
         loop={true}
         autoplay={{
           delay: 2500,
@@ -23,7 +23,7 @@ const Colleagues = () => {
         }}
         breakpoints={{
           640: {
-            slidesPerView: 1,
+            slidesPerView: 2,
             spaceBetween: 20,
           },
           768: {

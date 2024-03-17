@@ -4,18 +4,18 @@ import { Link } from "react-router-dom";
 const Service = () => {
   return (
     <>
-      <section class="background_foto">
-        <div class="container">
+      <section className="background_foto">
+        <div className="container">
           <h1>Şirkətlər</h1>
           <p></p>
-          <div class="flex_end">
-            <div class="page_nav">
+          <div className="flex_end">
+            <div className="page_nav">
               <Link to="/" href="#">
                 Ana səhifə
               </Link>
               <span>
                 <i
-                  class="fa-solid fa-chevrons-right"
+                  className="fa-solid fa-chevrons-right"
                   style={{ fontSize: "9px", paddingRight: "5px" }}
                 ></i>
                 Şirkətlər
@@ -25,7 +25,7 @@ const Service = () => {
         </div>
       </section>
       <section id="inshaat_section">
-        <div class="container">
+        <div className="container">
           <h1>Inşaat portfeli</h1>
           <p>
             Bu seqment üzrə şirkətimiz fərdi yaşayış evləri, yaşayış binaları,
@@ -37,27 +37,27 @@ const Service = () => {
           <p>Portfelə aşağıdakı şirkətlər daxildir :</p>
           <div id="companies_in_inshaat">
           
-            <div class="company">
-              <div class="img_gold">
+            <div className="company">
+              <div className="img_gold">
                 <img
                   src="/assets/images/other/gold_construction.png"
                   alt=" "
-                  class="img_company"
+                  className="img_company"
                 />
               </div>
-              <div class="text_in_inshaat">
+              <div className="text_in_inshaat">
                 <h4>Gold Construction 2020 MMC</h4>
               </div>
             </div>
-            <div class="company">
-              <div class="img_nd">
+            <div className="company">
+              <div className="img_nd">
                 <img
                   src="/assets/images/other/nd_only.png"
                   alt=" "
-                  class="img_company"
+                  className="img_company"
                 />
               </div>
-              <div class="text_in_inshaat">
+              <div className="text_in_inshaat">
                 <h4>
                   <br />
                   ND company QSC
@@ -68,7 +68,7 @@ const Service = () => {
         </div>
       </section>
       <section id="inshaat_section">
-        <div class="container">
+        <div className="container">
           <h1>Mühəndəslik və Sənaye Xidmətləri</h1>
           <p>
             Bu seqment üzrə şirkətimiz sənaye müəssisələri üçün mexaniki,
@@ -80,15 +80,15 @@ const Service = () => {
           </p>
           <p>Portfelə aşağıdakı şirkətlər daxildir :</p>
           <div id="companies_in_inshaat">
-            <div class="company">
-              <div class="img_construction">
+            <div className="company">
+              <div className="img_construction">
                 <img
                   src="/assets/images/other/azsafeservice.png"
                   alt=" "
-                  class="img_company"
+                  className="img_company"
                 />
               </div>
-              <div class="text_in_inshaat">
+              <div className="text_in_inshaat">
                 <h4>AzSafe City MMC</h4>
               </div>
             </div>
@@ -97,7 +97,7 @@ const Service = () => {
         </div>
       </section>
       <section id="inshaat_section">
-        <div class="container">
+        <div className="container">
           <h1>Təchizat və nümayəndəlik</h1>
           <p>
             Bu seqment üzrə şirkətimiz strateji təchizat partnyoru kimi tərəfdaş
@@ -109,15 +109,15 @@ const Service = () => {
           </p>
           <p>Portfelə aşağıdakı şirkətlər daxildir :</p>
           <div id="companies_in_inshaat">
-            <div class="company">
-              <div class="img_construction">
+            <div className="company">
+              <div className="img_construction">
                 <img
                   src="/assets/images/other/elta_global.png"
                   alt=" "
-                  class="img_company"
+                  className="img_company"
                 />
               </div>
-              <div class="text_in_inshaat">
+              <div className="text_in_inshaat">
                 <h4>ELTA Global MMC</h4>
               </div>
             </div>
@@ -125,7 +125,7 @@ const Service = () => {
         </div>
       </section>
       <section id="inshaat_section">
-        <div class="container">
+        <div className="container">
           <h1>Treydinq</h1>
           <p>
             Bu seqment üzrə şirkətimiz neft kimya məhsullarının ölkə daxili və
@@ -133,15 +133,15 @@ const Service = () => {
           </p>
           <p>Portfelə aşağıdakı şirkətlər daxildir :</p>
           <div id="companies_in_inshaat">
-            <div class="company">
-              <div class="img_construction">
+            <div className="company">
+              <div className="img_construction">
                 <img
                   src="/assets/images/other/eta_oil.png"
                   alt=" "
-                  class="img_company"
+                  className="img_company"
                 />
               </div>
-              <div class="text_in_inshaat">
+              <div className="text_in_inshaat">
                 <h4>ETA OIL TRADE</h4>
               </div>
             </div>
@@ -149,7 +149,7 @@ const Service = () => {
         </div>
       </section>
       <section id="inshaat_section">
-        <div class="container">
+        <div className="container">
           <h1> Kənd təsərrüfatı</h1>
           <p>
             Bu seqment üzrə şirkətimiz quşçuluq, heyvandarlıq, bağçılıq,
@@ -157,15 +157,15 @@ const Service = () => {
           </p>
           <p>Portfelə aşağıdakı şirkətlər daxildir :</p>
           <div id="companies_in_inshaat">
-            <div class="company">
-              <div class="img_construction">
+            <div className="company">
+              <div className="img_construction">
                 <img
                   src="/assets/images/other/ekofarm.jpeg"
                   alt=" "
-                  class="img_company"
+                  className="img_company"
                 />
               </div>
-              <div class="text_in_inshaat">
+              <div className="text_in_inshaat">
                 <h4>ETA OIL TRADE</h4>
               </div>
             </div>

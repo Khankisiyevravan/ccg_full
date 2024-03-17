@@ -4,25 +4,31 @@ import { Link } from "react-router-dom";
 import "./about.css";
 import Colleagues from "../components/SwiperSlider/Colleagues";
 import PageHeader from "../components/pageInside/PageHeader";
+import AboutSection from "../components/sections/AboutSection";
+import InsaatPortfeli from "../components/sections/InsaatPortfeli";
 function About() {
-  const title = "ABOUT";
-  const bg = "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?cs=srgb&dl=pexels-mike-bird-170811.jpg&fm=jpg";
-  const locs = ["ANA", "ABOUT"];
+  const title = "Haqqımızda";
+  const bg = "/assets/images/catalog_images/haqqimizda.jpeg";
+  const locs = ["Ana səhifə", "Haqqımızda"];
   return (
     <>
-     <PageHeader bg={bg} title={title} locs={locs} />
-      {/* <section class="background_foto">
-        <div class="container">
+      <PageHeader bg={bg} title={title} locs={locs} />
+      <AboutSection />
+      <InsaatPortfeli />
+      <Statics />
+      <Colleagues />
+      {/* <section className="background_foto">
+        <div className="container">
           <h1>Haqqımızda</h1>
           <p></p>
-          <div class="flex_end">
-            <div class="page_nav">
+          <div className="flex_end">
+            <div className="page_nav">
               <Link to="/" href="#">
                 Ana səhifə
               </Link>
               <span>
                 <i
-                  class="fa-solid fa-chevrons-right"
+                  className="fa-solid fa-chevrons-right"
                   style={{ fontSize: "9px", paddingRight: "5px" }}
                 ></i>
                 Blog
@@ -31,44 +37,44 @@ function About() {
           </div>
         </div>
       </section>
-      <section id="about" class="padding">
-        <div class="container aboutus">
-          <div class="row">
-            <div class="fl_page_two">
-              <h2 class="heading heading_space">
+      <section id="about" className="padding">
+        <div className="container aboutus">
+          <div className="row">
+            <div className="fl_page_two">
+              <h2 className="heading heading_space">
                 Şirkətimizin <span> Tarixi</span>
-                <span class="line_under"></span>
+                <span className="line_under"></span>
               </h2>
-              <h4 class="mrg_btm">
+              <h4 className="mrg_btm">
                 Caspian Capital Group fəaliyyət göstərdiyi sahələr üzrə
                 ixtisaslaşmış şirkətləri, peşəkar komandası, qabaqcıl təcrübəsi,
                 müasir və innovativ yanaşması ilə müştərilərinə keyfiyyətli və
                 etibarlı xidmətlərini uğurla təmin edir.
               </h4>
-              <p class="mrg_btm">
+              <p className="mrg_btm">
                 Şirkətimiz inşaat və layihələndirmə, mühəndislik və sənaye
                 xidmətləri, təchizat , treydinq, kənd təsərrüfatı sahələrində
                 fəaliyyət göstərən şirkətlər qrupudur .
               </p>
-              <p class="mrg_btm">
+              <p className="mrg_btm">
                 Qrup daxilində 5 sektor üzrə 7 şirkətimiz fəaliyyət göstərir.
               </p>
             </div>
-            <div class="fl_page_three">
-              <div class="image">
+            <div className="fl_page_three">
+              <div className="image">
                 <img src="/assets/images/other/download.jpeg" alt="" />
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section id="history" class="padding bg_grey">
-        <div class="container">
-          <div class="row">
-            <div class="fl_page_one">
-              <h2 class="heading heading_space">
+      <section id="history" className="padding bg_grey">
+        <div className="container">
+          <div className="row">
+            <div className="fl_page_one">
+              <h2 className="heading heading_space">
                 <span></span> Xidmətlər
-                <span class="line_under"></span>
+                <span className="line_under"></span>
               </h2>
             </div>
           </div>
@@ -81,20 +87,20 @@ function About() {
               ))
             }
           </div>
-          {/* <div class="row">
-            <div class="fl_page_four flex_page_one history_wrap mrg_btm">
-              <div class="row">
-                <div class="pos_rel_one fl_page_three flex_page_two">
-                  <div class="image">
+          {/* <div className="row">
+            <div className="fl_page_four flex_page_one history_wrap mrg_btm">
+              <div className="row">
+                <div className="pos_rel_one fl_page_three flex_page_two">
+                  <div className="image">
                     <img
                       src="https://www.themesindustry.com/html/xwin/images/history1.jpg"
                       alt="our history"
                     />
                   </div>
                 </div>
-                <div class="pos_rel_two fl_page_two flex_page_two">
+                <div className="pos_rel_two fl_page_two flex_page_two">
                   <h3>
-                    <span class="year">1991</span> . Structure was Founded
+                    <span className="year">1991</span> . Structure was Founded
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -104,19 +110,19 @@ function About() {
                 </div>
               </div>
             </div>
-            <div class="fl_page_four flex_page_one history_wrap mrg_btm">
-              <div class="row">
-                <div class="pos_rel_one fl_page_three flex_page_two">
-                  <div class="image">
+            <div className="fl_page_four flex_page_one history_wrap mrg_btm">
+              <div className="row">
+                <div className="pos_rel_one fl_page_three flex_page_two">
+                  <div className="image">
                     <img
                       src="https://www.themesindustry.com/html/xwin/images/history2.jpg"
                       alt="our history"
                     />
                   </div>
                 </div>
-                <div class="pos_rel_two fl_page_two flex_page_two">
+                <div className="pos_rel_two fl_page_two flex_page_two">
                   <h3>
-                    <span class="year">1991</span> . Structure was Founded
+                    <span className="year">1991</span> . Structure was Founded
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -126,19 +132,19 @@ function About() {
                 </div>
               </div>
             </div>
-            <div class="fl_page_four flex_page_one history_wrap mrg_btm">
-              <div class="row">
-                <div class="pos_rel_one fl_page_three flex_page_two">
-                  <div class="image">
+            <div className="fl_page_four flex_page_one history_wrap mrg_btm">
+              <div className="row">
+                <div className="pos_rel_one fl_page_three flex_page_two">
+                  <div className="image">
                     <img
                       src="https://www.themesindustry.com/html/xwin/images/history2.jpg"
                       alt="our history"
                     />
                   </div>
                 </div>
-                <div class="pos_rel_two fl_page_two flex_page_two">
+                <div className="pos_rel_two fl_page_two flex_page_two">
                   <h3>
-                    <span class="year">1991</span> . Structure was Founded
+                    <span className="year">1991</span> . Structure was Founded
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -148,19 +154,19 @@ function About() {
                 </div>
               </div>
             </div>
-            <div class="fl_page_four flex_page_one history_wrap mrg_btm">
-              <div class="row">
-                <div class="pos_rel_one fl_page_three flex_page_two">
-                  <div class="image">
+            <div className="fl_page_four flex_page_one history_wrap mrg_btm">
+              <div className="row">
+                <div className="pos_rel_one fl_page_three flex_page_two">
+                  <div className="image">
                     <img
                       src="https://www.themesindustry.com/html/xwin/images/history4.jpg"
                       alt="our history"
                     />
                   </div>
                 </div>
-                <div class="pos_rel_two fl_page_two flex_page_two">
+                <div className="pos_rel_two fl_page_two flex_page_two">
                   <h3>
-                    <span class="year">1991</span> . Structure was Founded
+                    <span className="year">1991</span> . Structure was Founded
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

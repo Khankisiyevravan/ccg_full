@@ -11,9 +11,10 @@ header .container {
   height: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .logo {
-  height: 100%;
+  height: 80%;
 }
 .logo img {
   height: 100%;
@@ -27,7 +28,7 @@ header .container div {
 header .container div > ul {
   display: flex;
   align-items: center;
-  gap: 44px;
+  gap: 40px;
 }
 
 header .container div > ul li a {
@@ -38,10 +39,11 @@ header .container div > ul li a {
 }
 header.scroll {
   transition: 0.4s;
-  background-color: rgba(255, 255, 255, 0.933);
+  /* background-color: rgba(255, 255, 255, 0.933); */
+  background-color: rgba(4, 10, 68, 0.933);
 }
 header.scroll .container div > ul li a {
-  color: black;
+  /* color: black; */
 }
 #bar_menu {
   color: white;
@@ -54,7 +56,14 @@ header.scroll .container div > ul li a {
 #cancel_btn {
   font-size: 30px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
+  header .container div > ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+}
+@media (max-width: 1024px) {
   header .container {
     align-items: center;
   }

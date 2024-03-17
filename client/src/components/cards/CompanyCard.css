@@ -1,0 +1,64 @@
+#about_section_text div {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.company_card {
+  width: calc((100% - 20px) / 2);
+  border: 1px solid wheat;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  aspect-ratio: 5/2;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+}
+.company_card div {
+  height: 100%;
+}
+.company_card_logo {
+  width: calc(50% - 10px);
+}
+.company_card_logo img {
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+.company_card_name {
+  width: calc(50% - 10px);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 1024px) {
+  .company_card {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .company_card {
+    width: calc((100% - 20px) / 2);
+  }
+  #about_section_text div{
+    gap: 10px;
+  }
+  .company_card_name{
+    font-size: 17px;
+  }
+}
+@media (max-width: 550px) {
+  .company_card {
+    width: 100%;
+  }
+  #about_section_text div{
+    gap: 10px;
+  }
+  .company_card_name{
+    font-size: 20px;
+  }
+}

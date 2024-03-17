@@ -1,0 +1,8 @@
+#news_section {
+  margin-top: 50px;
+}
+#news_section .container {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}

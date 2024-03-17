@@ -1,0 +1,61 @@
+#industry_section {
+  position: relative;
+  z-index: 1;
+  min-height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+#industry_section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/public/assets/images/catalog_images/insaat_portfeli.jpeg");
+}
+#industry_section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: rgba(4, 10, 68, 0.6);
+}
+#industry_section h2 {
+  font-size: 64px;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  /* padding-top: 70px; */
+  color: #cba430;
+}
+#industry_section p {
+  text-align: center;
+  max-width: 900px;
+  margin: 30px auto;
+  color: white;
+  font-size: 22px;
+}
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1000px) {
+}
+
+@media screen and (max-width: 768px) {
+  #industry_section h2{
+    font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+}

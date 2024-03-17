@@ -2,18 +2,15 @@ import React, { useEffect, useRef } from "react";
 import WOW from "wowjs";
 import "./VideoSection.css";
 import { Link } from "react-router-dom";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import AnimatedText from "../animation/AnimationText";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
+// import AnimatedText from "../animation/AnimationText";
 const VideoSection = () => {
   const videoRef = useRef(null);
   const text =
     "Şirkətimiz, inşaat, mühəndislik, sənaye, təchizat, treydinq ve kənd təsərrüfatı sahələrində \n fəaliyyət göstərən beş fərqlisektorda xidmət verən bir şirkətlər qrubudur";
   useEffect(() => {
-    AOS.init({
-      once: true,
-      mirror: false,
-    });
+
     new WOW.WOW().init();
     if (videoRef.current) {
       videoRef.current.load();
@@ -44,7 +41,7 @@ const VideoSection = () => {
           <p>
             Şirkətimiz, inşaat, mühəndislik, sənaye, təchizat, treydinq ve kənd
             təsərrüfatı sahələrində fəaliyyət göstərən beş fərqli sektorda
-            xidmət verən bir şirkətlər qrubudur .
+            xidmət verən bir şirkətlər qrubudur.
           </p>
 
           <div id="video_buttons">
@@ -52,7 +49,7 @@ const VideoSection = () => {
               <Link to="/services">Xidmətlər</Link>
             </button> */}
             <button>
-              <Link to="/companies">Şirkətlər</Link>
+              <Link to="/about">Haqqımızda</Link>
             </button>
           </div>
         </div>
