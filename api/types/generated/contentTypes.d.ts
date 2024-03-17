@@ -857,7 +857,7 @@ export interface ApiCompanyCompany extends Schema.CollectionType {
     draftAndPublish: true;
   };
   attributes: {
-    Name: Attribute.String;
+    name: Attribute.String;
     logo: Attribute.Media;
     background: Attribute.Media;
     images: Attribute.Media;
