@@ -83,15 +83,16 @@
 #video_text button:nth-child(2),
 #about_main button {
   /* #3e9fbe */
-  border: 2px solid rgba(127, 97, 14, 1);
-  background-color: rgba(127, 97, 14, 1);
+  border: 2px solid white;
+  /* background-color: rgba(4, 10, 68, 0.8); */
   border-radius: 4px;
 }
 #video_text button:hover a,
 #about_main button:hover a {
   background-color: white;
-  color: rgb(127, 97, 14);
+  color: rgba(4, 10, 68, 1);
   font-weight: 600;
+  border: 2px solid white;
 }
 #video_buttons {
   margin-top: 40px;
@@ -100,17 +101,13 @@
   justify-content: center;
 }
 @media screen and (max-width: 1200px) {
-
 }
 
 @media screen and (max-width: 1000px) {
-
 }
 
 @media screen and (max-width: 768px) {
-
 }
 
 @media screen and (max-width: 500px) {
-
 }

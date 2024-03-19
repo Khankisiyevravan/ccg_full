@@ -10,7 +10,6 @@ const VideoSection = () => {
   const text =
     "Şirkətimiz, inşaat, mühəndislik, sənaye, təchizat, treydinq ve kənd təsərrüfatı sahələrində \n fəaliyyət göstərən beş fərqlisektorda xidmət verən bir şirkətlər qrubudur";
   useEffect(() => {
-
     new WOW.WOW().init();
     if (videoRef.current) {
       videoRef.current.load();
@@ -45,9 +44,9 @@ const VideoSection = () => {
           </p>
 
           <div id="video_buttons">
-            {/* <button>
+            <button>
               <Link to="/services">Xidmətlər</Link>
-            </button> */}
+            </button>
             <button>
               <Link to="/about">Haqqımızda</Link>
             </button>

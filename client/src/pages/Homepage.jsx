@@ -9,8 +9,8 @@ import AboutSection from "../components/sections/AboutSection";
 import InsaatPortfeli from "../components/sections/InsaatPortfeli";
 import Goal from "../components/Goals/Goal";
 import Colleagues from "../components/SwiperSlider/Colleagues";
-import Statics from "../components/statics/Statics";
-import ContactForm from "../components/form/ContactForm"
+// import Statics from "../components/statics/Statics";
+import ContactForm from "../components/form/ContactForm";
 const Homepage = () => {
   return (
     <>
@@ -18,9 +18,9 @@ const Homepage = () => {
       <AboutSection />
       <InsaatPortfeli />
       <Goal />
-      <Statics/>
+      {/* <Statics/> */}
       <Colleagues />
-      <ContactForm/>
+      <ContactForm />
       {/* <section id="about_sec">
         <div className="container">
           <div id="about_main">

@@ -15,7 +15,7 @@ function About() {
       <PageHeader bg={bg} title={title} locs={locs} />
       <AboutSection />
       <InsaatPortfeli />
-      <Statics />
+      {/* <Statics /> */}
       <Colleagues />
       {/* <section className="background_foto">
         <div className="container">

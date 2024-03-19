@@ -4,8 +4,7 @@ import ContactForm from "../components/form/ContactForm";
 import PageHeader from "../components/pageInside/PageHeader";
 const Contact = () => {
   const title = "Bizim əlaqə";
-  const bg =
-    "/assets/images/other/cons_bg.jpg";
+  const bg = "/assets/images/other/cons_bg.jpg";
   const locs = ["ANA", "Contact"];
   return (
     <>
